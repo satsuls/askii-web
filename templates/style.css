@@ -1,0 +1,36 @@
+body{
+ background-color: #03396c;
+
+}
+
+.askii{
+   text-align: center;
+   background-color:#005b96;
+   margin: 7% 25% 1% 25%;
+   padding: 2% 2% 2% 2%;
+   font-size: 15px;
+   border-radius: 20px;
+}
+
+.title{
+    font-size: 50px
+}
+.outputText{
+background-color: #b3cde0;
+border-radius: 20px;
+padding: 1% 1% 1% 1%; 
+}
+
+pre{
+    width: 100%;
+    overflow: auto;
+}
+
+
+.activ{
+    background-color: #b3cde0;
+    border-radius: 5px;
+    margin: 1% 1% 1% 1%; 
+}
+
+

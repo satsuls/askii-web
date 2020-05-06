@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Askii-art-weB</title>
+    <link rel="stylesheet" href="templates/style.css">
+</head>
+
+<body>
+
+    <div class="askii">
+        <div class="inputText">
+            <p class="title">Askii-art-weB</p>
+            <form action="/" method="POST">
+                <select name="font" class="activ">
+                    <option value="standard">standard</option>
+                    <option value="shadow">shadow</option>
+                    <option value="thinkertoy">thinkertoy</option>
+                </select>
+                <input class="activ" name="inputtedText" placeholder="Enter your text">
+                <button class="activ">Go askii</button>
+            
+                
+            </form>
+        </div>
+        <div class="outputText">
+            <pre>{{.}}</pre>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
